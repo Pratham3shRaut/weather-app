@@ -1,0 +1,67 @@
+/* ---- reset ---- */ 
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Added position relative for child elements to use absolute positioning */
+  }
+  
+  /* ---- Particle.js Container ---- */ 
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #232741;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 50% 50%;
+  }
+  
+#cityInput{
+    width: 157.667px;
+    height: 38.4px;
+    border-radius:10px ;
+    text-align: center;
+   font-size: large;
+   box-shadow: #232741;
+   font-style: calc();
+  
+  }
+  
+  /* ---- Weather App Container ---- */
+  .container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #033B92;
+    display: block;
+    overflow: hidden;
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 12px 20px;
+    background-color: #FC3B1B;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #FC3B1B;
+  }
+  
